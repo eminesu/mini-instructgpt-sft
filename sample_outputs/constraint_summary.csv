@@ -1,0 +1,8 @@
+constraint,base,sft
+polite,0.150,0.150
+empathy,0.100,0.750
+asks_for_info,0.000,0.800
+offers_next_step,0.100,0.850
+not_rude,1.000,1.000
+substantive,1.000,1.000
+OVERALL_RATE,0.392,0.758

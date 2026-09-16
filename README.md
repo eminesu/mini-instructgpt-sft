@@ -12,6 +12,26 @@ human feedback"* ([arXiv:2203.02155](https://arxiv.org/abs/2203.02155)), on a cu
 > analysis motivating RLHF. A teammate ("Person 2") built the Reward Model + PPO on top of the
 > SFT model produced here. This repo contains my part.
 
+## Results
+
+Fine-tuning DistilGPT-2 on 50 demonstrations (8 epochs) nearly **doubles the constraint-following
+rate** on 20 held-out prompts — from **0.39 (base)** to **0.76 (SFT)**. The biggest gains are exactly
+the instruction-following behaviours SFT is meant to teach: empathy, asking for the order number, and
+offering a next step.
+
+| Constraint | Base | SFT |
+|-----------|:----:|:----:|
+| empathy | 0.10 | **0.75** |
+| asks for info | 0.00 | **0.80** |
+| offers next step | 0.10 | **0.85** |
+| **overall rate** | **0.39** | **0.76** |
+
+| Training loss | Base vs. SFT constraints |
+|---|---|
+| ![loss curve](assets/sft_loss_curve.png) | ![comparison](assets/constraint_comparison.png) |
+
+Sample side-by-side replies and the full metrics are in [`sample_outputs/`](sample_outputs/).
+
 ## Scope (Person 1)
 1. **Dataset** — 60 polite customer-support demonstrations, prompt/response
    format, 50/10 train/val split.

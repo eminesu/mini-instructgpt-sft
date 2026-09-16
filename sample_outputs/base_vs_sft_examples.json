@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "prompt": "My order is stuck in customs.",
+    "base_reply": "This is the same customer I have asked for.",
+    "sft_reply": "Great question! If you're stuck in customs, I'll arrange a replacement or refund and can arrange a refund.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.5,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 2,
+    "prompt": "The screen on my new tablet is cracked.",
+    "base_reply": "My client is a software developer with a lot of experience in software development.",
+    "sft_reply": "I'm sorry to hear your concern about this, that's not the case. Could you share your order number and the device you'd like to return? I'll arrange a replacement and refund the cost.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 3,
+    "prompt": "I was double-billed for shipping.",
+    "base_reply": "I was just starting to work on my first contract.\nMy goal was to get a customer to work with me on the customer service side.\nMy goal was to get a customer to work with me on the customer service side.\nI was a big fan of the project, and I wanted to do something different.\nI wanted to get a customer to work with me on the customer service",
+    "sft_reply": "I'm sorry the shipping hasn't been helpful for you, that's disappointing. Could you share your order number? I'll arrange a replacement and arrange a replacement within 30 days.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 4,
+    "prompt": "Can you help me find my tracking number?",
+    "base_reply": "I am an employee of my personal website. I am not affiliated with the company or any company or agency.\n###\nI am a member of the public at large. I am a member of the public at large. I am a member of the public at large. I am a member of the public at large. I am a member of the public at large. I am a member",
+    "sft_reply": "Thanks for asking! I'm happy to help track your tracking and can provide you with a tracking number if needed. If you'd like to help me locate your tracking, I'll send you an email with tracking details and a free tracking guide.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.667,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 1,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 5,
+    "prompt": "The wrong size shoes were delivered.",
+    "base_reply": "For the Customer, please contact Customer Support at customersupport@bq.com.\n###",
+    "sft_reply": "I'm sorry the wrong size shoes were delivered. Could you tell me your order number? I'll arrange a replacement or refund right away.",
+    "base_constraint_rate": 0.5,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 1,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 6,
+    "prompt": "I've been waiting on hold for an hour.",
+    "base_reply": "I've been waiting on hold for an hour.",
+    "sft_reply": "I'm sorry you're so late. Could you share your order number? I'll arrange a replacement and can arrange a replacement within 30 days.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 7,
+    "prompt": "My loyalty points disappeared from my account.",
+    "base_reply": "I am not aware of any of the messages I received from the customer.\n###",
+    "sft_reply": "I sincerely apologize for the missing link. Could you share your order number and the email you received? I'll arrange a replacement or refund.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 8,
+    "prompt": "The fabric started tearing after one wear.",
+    "base_reply": "You should know that when you take a piece of fabric and put it in the middle of the fabric and wrap it in the fabric and wrap it around your body, it’s going to get teary and teary.\nYou don’t want to wear it in your bed, it’s going to get teary and teary.\nYou can tell that the fabric",
+    "sft_reply": "I'm sorry that this happened. Could you share your order number? I'll arrange a replacement and refund the damage.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 9,
+    "prompt": "I need to update the email on my account.",
+    "base_reply": "I'm a customer and I want to help you with your shopping.",
+    "sft_reply": "I'm sorry to hear your email hasn't received the email yet, I'm glad you're here. Could you share your order number? I'll verify the status and update the status.",
+    "base_constraint_rate": 0.5,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 10,
+    "prompt": "My replacement order also arrived damaged.",
+    "base_reply": "I've been looking for a new customer. I'll be back at work on the next day. I'm very excited for this.\nYou can find me on twitter at @Agent_I will be on the next day at the next day. I'm very excited for this.\nI'm a customer of Amazon.com and my last email address is my last email address. I'm also",
+    "sft_reply": "I'm sorry the issue didn't arrive, that's completely unacceptable. Could you please share your order number? I'll arrange a replacement and refund the damage to the customer.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 1.0,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 1,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 11,
+    "prompt": "Do you price match competitors?",
+    "base_reply": "Do you want to make sure you have a good match?",
+    "sft_reply": "Absolutely! If you share your order number, I can confirm and process your order.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.667,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 12,
+    "prompt": "The gift card I bought isn't working.",
+    "base_reply": "I'm sorry, but I'm not the only one who is being rude. I'm trying to find out what the message is. I'm trying to find out what the message is. I'm trying to find out what the message is.",
+    "sft_reply": "I'm sorry the gift card wasn't working, that's frustrating. Could you share your order number? I'll arrange a replacement or refund and will update this post if it becomes available.",
+    "base_constraint_rate": 0.5,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 13,
+    "prompt": "My package was marked delivered but it's missing.",
+    "base_reply": "I can't speak to you about this issue.\nThank you for taking the time to read the whole thing.\n###\nThank you for sharing this story with the community.\n###\nI have been contacted by the customer service team at the company. I hope to be able to contact them soon.\n###\nThank you for sharing this story with the community.\n###\nThank you",
+    "sft_reply": "I'm sorry the package was missing. Could you share your order number so I can confirm your order status? I'll arrange a return and refund for the missing package.",
+    "base_constraint_rate": 0.5,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 1,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 14,
+    "prompt": "Can I cancel an order placed five minutes ago?",
+    "base_reply": "You can cancel a purchase of a product or product from Amazon.com or by using the following methods:\n- If the order is not received, the order will be returned to the customer for further processing.\n- If the order is not received, the order will be returned to the customer for further processing.\n- If the order is not received, the order will be returned to the customer",
+    "sft_reply": "No worries, that shouldn't happen. Could you please share your order number? I'll arrange a refund and refund the wrong order for you.",
+    "base_constraint_rate": 0.5,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 1,
+      "empathy": 0,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 15,
+    "prompt": "The instructions are in a language I can't read.",
+    "base_reply": "I am in the United States of America.",
+    "sft_reply": "I'm sorry the instructions were confusing. Could you share your order number and the exact instructions for your order? I'll verify whether the instructions are correct and share your order number.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.667,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 16,
+    "prompt": "I was charged a fee I don't recognize.",
+    "base_reply": "I'm sorry.\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###\n###",
+    "sft_reply": "I'm sorry your charge isn't included, that's not the standard we take into consideration. Could you tell me your order number? I'll verify whether the charge is accurate and make sure your order number is correct.",
+    "base_constraint_rate": 0.5,
+    "sft_constraint_rate": 0.667,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 17,
+    "prompt": "How do I return a faulty headphone set?",
+    "base_reply": "We have a number of issues with the headphone set and the headphone is not working properly, and the headphone is not working correctly.\nTo fix this issue, we will take a look at the installation instructions below.\nThe first step is to install the adapter.\nYou will need to install the adapter in your system.\nOnce installed, open the Applications section of the Applications section of the application",
+    "sft_reply": "I'm sorry to hear that. If a faulty headphone comes with a defective one, I'll refund the defective one.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.667,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 0,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 18,
+    "prompt": "The promised next-day delivery never came.",
+    "base_reply": "The promise of delivery is just as important as the promise of delivery.",
+    "sft_reply": "I'm sorry the delivery wasn't right, that's disappointing. Could you share your order number and the delivery details for you? I'll arrange a free delivery for you in the near future.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.833,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 19,
+    "prompt": "My account got locked for no reason.",
+    "base_reply": "This is the email I received.\n## Please refer to the email below to get me started.",
+    "sft_reply": "I'm sorry you've been locked, that shouldn't happen. Could you tell me the reason behind this? I'll check for any issues you encounter while in the loop.",
+    "base_constraint_rate": 0.5,
+    "sft_constraint_rate": 0.667,
+    "base_breakdown": {
+      "polite": 1,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 1,
+      "asks_for_info": 1,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  },
+  {
+    "id": 20,
+    "prompt": "Can I get an invoice for my business records?",
+    "base_reply": "My customer:\nCan I get an invoice for my business records?",
+    "sft_reply": "Absolutely! If it's not for you, I'll arrange a replacement and refund the difference.",
+    "base_constraint_rate": 0.333,
+    "sft_constraint_rate": 0.5,
+    "base_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 0,
+      "not_rude": 1,
+      "substantive": 1
+    },
+    "sft_breakdown": {
+      "polite": 0,
+      "empathy": 0,
+      "asks_for_info": 0,
+      "offers_next_step": 1,
+      "not_rude": 1,
+      "substantive": 1
+    }
+  }
+]
