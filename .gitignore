@@ -1,0 +1,15 @@
+# Generated at runtime
+outputs/
+*.pth
+*.safetensors
+*.bin
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
